@@ -1,0 +1,17 @@
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\bin\Debug\netstandard2.0\OcCine.deps.json
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\bin\Debug\netstandard2.0\OcCine.dll
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\bin\Debug\netstandard2.0\ref\OcCine.dll
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\bin\Debug\netstandard2.0\OcCine.pdb
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\obj\Debug\netstandard2.0\OcCine.csproj.AssemblyReference.cache
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\obj\Debug\netstandard2.0\OcCine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\obj\Debug\netstandard2.0\OcCine.AssemblyInfoInputs.cache
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\obj\Debug\netstandard2.0\OcCine.AssemblyInfo.cs
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\obj\Debug\netstandard2.0\OcCine.csproj.CoreCompileInputs.cache
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\obj\Debug\netstandard2.0\OcCine.dll
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\obj\Debug\netstandard2.0\refint\OcCine.dll
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\obj\Debug\netstandard2.0\OcCine.pdb
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\obj\Debug\netstandard2.0\View\MuestraOc.xaml.g.cs
+C:\Users\javie\source\repos\ProyectoOc\OcCine\OcCine\obj\Debug\netstandard2.0\View\RenPage.xaml.g.cs

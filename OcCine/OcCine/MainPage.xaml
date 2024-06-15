@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OcCine.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkKhaki" Padding="24" CornerRadius="0">
+            <Label Text="Bienvenido a la aplicacion de los Oc! " HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+        </Frame>
+        <Image Source="dormir.png"
+               HeightRequest="100"
+               HorizontalOptions="Center"></Image>
+        
+        <Label Text="Formulario de Acceso" FontSize="Title" HorizontalTextAlignment="Center" TextColor="Black"></Label>
+        <Entry Text="{Binding Correo}" Placeholder="Usuario" Margin="10"></Entry>
+        <Entry Text="{Binding Clave}" Placeholder="Contraseña" IsPassword="True" Margin="10"></Entry>
+        <Button Text="Acceder" Command="{Binding EventoAcceso}" BackgroundColor="DarkKhaki" Margin="10"></Button>
+        <Label Text="{Binding Validacion}" TextColor="DarkKhaki" HorizontalOptions="Center"></Label>
+    </StackLayout>
+
+</ContentPage>

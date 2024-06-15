@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OcCine.View.MuestraOc">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Encabezado -->
+            <StackLayout Orientation="Horizontal" Margin="10">
+                <Label Text="Los OC" FontSize="Title" HorizontalOptions="StartAndExpand"/>
+                <Image Source="dormir.png" HeightRequest="40" WidthRequest="40" HorizontalOptions="End"/>
+            </StackLayout>
+
+            <!-- Lista de publicaciones -->
+           
+                            <StackLayout Padding="10" BackgroundColor="#EEEEEE" Orientation="Horizontal">
+                                <!-- Imagen circular del usuario -->
+                                <Image Source="ren.png" WidthRequest="50" HeightRequest="50" Aspect="AspectFill" 
+                                       BackgroundColor="LightGray" VerticalOptions="Center" HorizontalOptions="Start"
+                                       Margin="0,0,10,0"  >
+                                    <Image.Clip>
+                                        <EllipseGeometry Center="25,25" RadiusX="25" RadiusY="25" />
+                                    </Image.Clip>
+                                    
+                                </Image>
+                                <Label Text="Hola, soy Ren!"></Label>
+                <Label Text="Hola, soy Ren!"></Label>
+                <StackLayout VerticalOptions="Center">
+                                    <!-- Título del nombre de usuario -->
+                                    <Label Text="{Binding UsuarioNombre}" FontAttributes="Bold"/>
+                                    <!-- Descripción -->
+                                    <Label Text="{Binding Descripcion}" Margin="0,5,0,0"/>
+                                </StackLayout>
+                            
+                                <!-- Botón de Me gusta con imagen -->
+                <Button BackgroundColor="Gold"  HorizontalOptions="End" Command="{Binding IrRen}"></Button>
+                            </StackLayout>
+
+
+            <StackLayout Padding="10" BackgroundColor="#EEEEEE" Orientation="Horizontal">
+                <!-- Botón de Me gusta con imagen -->
+                <Button BackgroundColor="Gold"  HorizontalOptions="End" Command="{Binding IrRen}"></Button>
+
+                <!-- Contenido -->
+                <StackLayout VerticalOptions="CenterAndExpand">
+                    <!-- Título del nombre de usuario -->
+                    <Label Text="{Binding UsuarioNombre}" FontAttributes="Bold"/>
+                    <!-- Descripción -->
+                    <Label Text="{Binding Descripcion}" Margin="0,5,0,0"/>
+                </StackLayout>
+                <Label Text="Hola, soy Ren!"></Label>
+                <Label Text="Hola, soy Ren!"></Label>
+                <!-- Imagen circular del usuario -->
+                <Image Source="ren.png" WidthRequest="50" HeightRequest="50" Aspect="AspectFill" 
+           BackgroundColor="LightGray" VerticalOptions="Center" HorizontalOptions="End"
+           Margin="0,0,10,0" >
+                    <Image.Clip>
+                        <EllipseGeometry Center="25,25" RadiusX="25" RadiusY="25" />
+                    </Image.Clip>
+                </Image>
+                
+                
+            </StackLayout>
+
+
+            <!-- Botón para agregar nueva publicación -->
+            <Button Text="Nueva Publicación" HorizontalOptions="FillAndExpand" Margin="10" BackgroundColor="#2196F3" TextColor="White" Clicked="AgregarPublicacion_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
